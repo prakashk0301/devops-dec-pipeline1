@@ -5,9 +5,9 @@ pipeline
     stages 
       
     {
-        stage (print your message)       # This stage will print a message
+        stage (print your message)       // This stage will print a message
         {
-            steps { echo 'Hello World' }  # provide your commands here
+            steps { echo 'Hello World' }  //provide your commands here
         }
 
     }
