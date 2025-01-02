@@ -15,10 +15,6 @@ pipeline
             steps { echo 'code is building' }
         }
 
-        stage ("code deploy")
-        {
-            steps { echo 'code is deployinng' }
-        }
 
     }
 }
